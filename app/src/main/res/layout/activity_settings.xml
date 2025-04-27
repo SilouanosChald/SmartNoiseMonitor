@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="?android:colorBackground"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/settingsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/thresholdInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Threshold (dB)"
+            android:inputType="numberDecimal"
+            android:textColor="?android:textColorPrimary"
+            android:textColorHint="?android:textColorHint"
+            android:backgroundTint="?attr/colorPrimary"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/intervalInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sampling Interval (ms)"
+            android:inputType="number"
+            android:textColor="?android:textColorPrimary"
+            android:textColorHint="?android:textColorHint"
+            android:backgroundTint="?attr/colorPrimary"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 🌙 Theme Toggle Switch -->
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/themeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Mode"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="24dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/monitoringSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monitor Noise in Background"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="24dp" />
+
+
+        <Button
+            android:id="@+id/saveSettingsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Settings"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/predictionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading Prediction..."
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="?android:textColorPrimary"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/noiseGraph"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

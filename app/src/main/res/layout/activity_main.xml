@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="?android:colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <com.github.anastr.speedviewlib.PointerSpeedometer
+            android:id="@+id/speedometer"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            app:sv_maxSpeed="125"
+            app:sv_minSpeed="0"
+            app:sv_unit=""
+            app:sv_tickNumber="6"
+            app:sv_withTremble="true"
+            app:sv_speedTextSize="0sp"
+            app:sv_backgroundCircleColor="@android:color/transparent"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/levelIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/black" />
+
+
+        <!-- 🔥 NEW TextView for showing detected sound -->
+        <TextView
+            android:id="@+id/soundLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detected Sound: --"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/viewFirebaseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Firebase Logs"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/mapButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Heatmap"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button" />
+        <Button
+            android:id="@+id/noisePredictionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noise Prediction"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

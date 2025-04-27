@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "499432324876",
+    "firebase_url": "https://smartnoiseapp-69202-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "smartnoiseapp-69202",
+    "storage_bucket": "smartnoiseapp-69202.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499432324876:android:2acffe1e3d7e46aff59329",
+        "android_client_info": {
+          "package_name": "com.example.smartnoisemonitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq3U7FIQnGag3nCJ0HcPBD6WYSRfPkBPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

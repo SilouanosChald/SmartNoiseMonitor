@@ -1,0 +1,73 @@
+<resources>
+    <!-- Primary & secondary branding colors -->
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+    <color name="green_200">#A5D6A7</color>
+
+    <color name="blue_gray">#37474F</color>
+    <color name="gray_dark">#263238</color>
+    <color name="gray_light">#ECEFF1</color>
+
+    <!-- Text and background -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <color name="black_speedometer">#000000</color>
+
+    <!-- Optional additional theme colors -->
+    <color name="primary">#4CAF50</color>
+    <color name="background">#F5F5F5</color>
+    <color name="textPrimary">#212121</color>
+    <color name="button">#4CAF50</color> <!-- Green tone or choose any -->
+    <color name="progressBarColor">#4CAF50</color> <!-- Green-ish -->
+    <color name="warningOrange">#FFA726</color>
+    <color name="alertRed">#E53935</color>
+
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="somon">#FFE4C9</color> <!-- light salmon/somon tone -->
+    <color name="textColorAdaptive">?android:textColorPrimary</color>
+
+        <color name="backgroundColor">#121212</color>
+        <color name="textColorPrimary">#FFFFFF</color>
+
+
+    <color name="card_background">#FFFFFF</color> <!-- White -->
+
+    <!-- Accent / Button / Graph -->
+    <color name="accent_blue">#2196F3</color>
+    <color name="error_red">#F44336</color>
+
+
+        <!-- Light Theme Colors -->
+        <color name="bottomSheetBackgroundLight">#FFFFFF</color> <!-- white -->
+        <color name="bottomSheetTextLight">#000000</color> <!-- black -->
+
+        <!-- Dark Theme Colors -->
+        <color name="bottomSheetBackgroundDark">#121212</color> <!-- dark grey/black -->
+        <color name="bottomSheetTextDark">#FFFFFF</color> <!-- white -->
+
+
+        <color name="teal_200">#03DAC5</color>
+        <color name="teal_700">#018786</color>
+
+
+        <!-- Shared Colors -->
+        <color name="colorAccent">#BB86FC</color>
+        <color name="colorPrimary">#03DAC5</color>
+
+        <!-- Dark Mode -->
+        <color name="dark_background">#121212</color>
+        <color name="dark_text">#FFFFFF</color>
+
+        <!-- Light Mode -->
+        <color name="light_background">#FFBCB3</color> <!-- Salmon -->
+        <color name="light_text">#000000</color>
+
+
+
+
+</resources>
